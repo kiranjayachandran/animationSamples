@@ -1,0 +1,49 @@
+{
+    "AS_Button_gdd28ead42cc4dcc852f2b6fa51788f5": {
+        "id": "AS_Button_gdd28ead42cc4dcc852f2b6fa51788f5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": null,
+            "KUID": "eb220329f587452ba8a811c131976490"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SCALE_ACTION____b29a1cca2e384e748242af2ef9ef4ea9",
+            "type": "SCALE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmHome",
+            "widgetId": "btn",
+            "itemKUID": "eb220329f587452ba8a811c131976490",
+            "widgetKUID": "d8be98fb678543c9a97774a5c4bcc26b",
+            "wType": "Button",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "width": "100%",
+                "height": "100%"
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": "2",
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250",
+                "direction": "kony.anim.DIRECTION_ALTERNATE"
+            },
+            "start": "Immediately",
+            "animationId": "SCALE_ACTION____b29a1cca2e384e748242af2ef9ef4ea9",
+            "displayAnimationId": "SCALE_ACTION____b29a1cca2e384e748242af2ef9ef4ea9",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "frmHome.btn"
+        }]
+    }
+}

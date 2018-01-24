@@ -1,0 +1,59 @@
+{
+    "AS_Button_i0ee8fb6a8b444e38fea22070793be80": {
+        "id": "AS_Button_i0ee8fb6a8b444e38fea22070793be80",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMapping",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d5ee3567541e42fb92d9199566a35ada"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_LOCAL_VARIABLE_ide_onClick_a0eb906ec96d496ca0a2c8513a1d9c7e",
+            "type": "ADD_LOCAL_VARIABLE",
+            "name": "Val",
+            "valuetype": "expression",
+            "datatype": "string",
+            "value": "frmVariable.txtValue.text",
+            "callbackType": null
+        }, {
+            "id": "IF_CONDITION_ide_onClick_ccf06478fd4d4ff8a8901f40f8646b9c",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": " Val== pass"
+            }],
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "ADD_SNIPPET_ide_onClick_ee45b512c51d4047b963831728fa634c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(Val);",
+            "parentId": "IF_CONDITION_ide_onClick_ccf06478fd4d4ff8a8901f40f8646b9c",
+            "callbackType": null
+        }, {
+            "id": "ELSE_CONDITION_ide_onClick_d9e08422f66f4220a3160a55bb17f08e",
+            "type": "ELSE_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "",
+                "operator": "===",
+                "rightValueType": "widgetprop",
+                "rightValue": ""
+            }],
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "ADD_SNIPPET_ide_onClick_f4f3a30497b24495bc80f80611f3d1bf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"fail\")",
+            "parentId": "ELSE_CONDITION_ide_onClick_d9e08422f66f4220a3160a55bb17f08e",
+            "callbackType": null
+        }]
+    }
+}

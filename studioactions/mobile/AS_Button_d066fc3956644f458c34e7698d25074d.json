@@ -1,0 +1,60 @@
+{
+    "AS_Button_d066fc3956644f458c34e7698d25074d": {
+        "id": "AS_Button_d066fc3956644f458c34e7698d25074d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMapping",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d5ee3567541e42fb92d9199566a35ada"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_MAPPING__b0966c2be55745289ae9af27928a12f2",
+            "type": "ADD_MAPPING",
+            "mappings": {
+                "ME_Mapping_cf3191210b1c49be96206d9f8258a088": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_cf3191210b1c49be96206d9f8258a088",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "skin",
+                        "widgetId": "btn1",
+                        "widgetPath": "frmMapping.btn1",
+                        "widgetType": "Button",
+                        "dataType": "string",
+                        "itemId": "frmMapping",
+                        "widgetKUID": "hbc63c89b7af4fb48c64dfa8dae2f95c",
+                        "itemKUID": "d5ee3567541e42fb92d9199566a35ada",
+                        "isSkinProperty": true,
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "skin",
+                        "widgetId": "btm2",
+                        "widgetPath": "frmMapping.btm2",
+                        "widgetType": "Button",
+                        "dataType": "string",
+                        "itemId": "frmMapping",
+                        "widgetKUID": "d7f27e86048242ababbcaa05938a5c7f",
+                        "itemKUID": "d5ee3567541e42fb92d9199566a35ada",
+                        "isSkinProperty": true,
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_cf3191210b1c49be96206d9f8258a088"],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}
